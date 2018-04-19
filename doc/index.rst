@@ -1,13 +1,21 @@
-======================
-jsk_interactive_marker
-======================
+=================
+jsk_visualization
+=================
 
-jsk_interactive_marker is a code using interactive marker.
+jsk_visualization is a stack for the visualization packages which are used in JSK lab.
+
+The code is open source, and `available on github`_.
+
+.. _available on github: http://github.com/jsk-ros-pkg/jsk_visualization
+
+
+This repository contains following ros packages:
 
 
 .. toctree::
-   :glob:
    :maxdepth: 1
 
-   display_robot_state
-   ./nodes/*
+   jsk_rviz_plugins/index
+   jsk_rqt_plugins/index
+   jsk_interactive_marker/index
+   tips/index
