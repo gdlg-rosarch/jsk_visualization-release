@@ -32,7 +32,6 @@ add_service_files(FILES
   )
 catkin_python_setup()
 generate_dynamic_reconfigure_options(
-  cfg/ClassificationResultVisualizer.cfg
   cfg/ContactStateMarker.cfg
   cfg/OverlayTextInterface.cfg)
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)

@@ -1,4 +1,4 @@
-language: c++
+language: generic
 cache:
   directories:
     - $HOME/.ccache

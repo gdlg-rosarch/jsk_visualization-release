@@ -229,7 +229,7 @@ namespace jsk_rviz_plugins
       // font
       if (text_size_ != 0) {
         //QFont font = painter.font();
-        QFont font(font_.length() > 0 ? font_.c_str(): "Liberation Sans");
+        QFont font(font_.length() > 0 ? font_.c_str(): "Arial");
         font.setPointSize(text_size_);
         font.setBold(true);
         painter.setFont(font);
